@@ -3,10 +3,10 @@
 
 let numero = prompt("Digite um numero: ")
 
-if(numero == 1,3,5,7,9) {
-    console.log("Impar")
-}
-
-if(numero == 2,4,6,8) {
+if(numero % 2 === 0) {
     console.log("Par")
 }
+else {console.log("Impar")
+}
+
+
