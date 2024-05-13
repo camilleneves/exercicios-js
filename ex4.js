@@ -8,15 +8,16 @@ let nota2 = prompt("Digite a nota 2: ")
 let nota3 = prompt("Digite a nota 3: ")
 let nota4 = prompt("Digite a nota 4: ")
 
-let media = (nota1 + nota2 + nota3 + nota4 / 4)
+let media = (nota1 + nota2 + nota3 + nota4) / 4
+console.log (media)
 
 
 if (media >= 7.0) {
-    alert("APROVADO");
+    console.log ("APROVADO");
 } 
 else if (media >= 5.0) {
-    alert("RECUPERAÇÃO");
+    console.log ("RECUPERAÇÃO");
 } 
 else {
-        alert("REPROVADO");
+        console.log ("REPROVADO");
 }
