@@ -16,10 +16,6 @@ function saudacao() {
 
 }
 
-
-
-
-
 function somar(num1,num2, num3){
     let soma = num1 + num2 + num3
     return soma
@@ -41,3 +37,9 @@ let professor ={
     idade: 25
 
 }
+
+console.log("Antes do desconto: " + produto.preco);
+
+produto.preco = 20
+
+console.log("Depois do desconto: " + produto.preco);
